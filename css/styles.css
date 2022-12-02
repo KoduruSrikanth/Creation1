@@ -1,0 +1,178 @@
+body{
+  font-family: "Montserrat;"
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.heading {
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* buttons */
+.download-button1 {
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+.rotated {
+  transform: rotate(25deg);
+}
+
+.iphone {
+  width: 60%;
+  position: absolute;
+  right: 10%;
+}
+
+/* features */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Bold"
+}
+
+/* icons */
+.icn {
+  color: #ef8172;
+}
+
+.icn2 {
+  padding-bottom: 2rem;
+}
+
+.icn2:hover {
+  color: #ff4c68;
+}
+
+.para {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 3%;
+}
+
+.pricing-column{
+  padding: 3% 2% 3% 2%;
+}
+
+@media (max-width:997px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone{
+    position: static;
+    transform: rotate(-25deg);
+    width: 50%;
+  }
+}
+
+/* cta */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.cta-text{
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 1;
+  padding: 5% 32% 2% 32%;
+}
+
+.download-button2 {
+  margin: 0 0.5%;
+  }
+
+/* footer */
+
+#footer{
+  text-align: center;
+  background-color: white;
+  padding: 3%;
+}
+
+.footer-logo{
+  padding-right: 1%;
+  margin-bottom: 2%;
+}
